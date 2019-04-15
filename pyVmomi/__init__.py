@@ -38,6 +38,12 @@ try:
 except ImportError:
    pass
 
+import pyVmomi.CustomServerObjects
+# try:
+#    import pyVmomi.CustomServerObjects
+# except ImportError:
+#    pass
+
 # Import all the known product-specific types
 # XXX: Make this search the package for types?
 try:
