@@ -5,7 +5,9 @@ from pyVim.connect import SmartConnect, Disconnect
 from pyVmomi import vim, vmodl
 import argparse
 import atexit
+import getpass
 import ssl
+import sys
 
 def GetArgs():
     """
